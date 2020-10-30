@@ -1,0 +1,47 @@
+div#header{
+    padding: 0 0 0 0%;
+	background: rgba(253, 182, 116, 0.6);
+	color: rgb(0, 0, 0);
+}
+h1{
+    padding: 1rem 2rem;
+    border: 3px solid #000;
+}
+h2{
+    font-size: 100%; 
+}
+body{
+    background: url(cook.jpg) no-repeat center center fixed #C0C0C0;
+	    -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+        background-size: cover;
+}
+div#content{
+	height: 350px;
+	padding: 0 0 0 0%;
+    background: rgba(148, 94, 170, 0.7);
+}
+b{
+        position: relative;
+        display: inline-block;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        color: #FFF;
+        background: #fd9535;/*色*/
+        border-radius: 4px;/*角の丸み*/
+        box-shadow: inset 0 2px 0 rgb(255, 255, 255), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+        font-weight: bold;
+        border: solid 2px #d27d00;/*線色*/
+}
+      
+      .btn-square-so-pop:active {
+        /*押したとき*/
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+      }
+
+div#footer{
+	padding: 0 0 0 0%;
+	background:rgba(150, 255, 136, 0.7);
+	clear: both;
+}
